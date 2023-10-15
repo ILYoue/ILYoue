@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilyas's website</title>  
+    <link rel="stylesheet" type="text/css" href="css/styles.css">  
     <style>
 h1 {
 color: rgb(212, 0, 255);
@@ -11,10 +17,6 @@ h2 {
 
 
     </style>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ilyas's website</title>
 </head>
 <body>
     <a href="#bottom">Bottom</a>
@@ -25,8 +27,9 @@ h2 {
         <br>
     </header>
 
+<div class="Me">
     <h2>Biography</h2>
-    <table border="1">
+    <table >
         <tr>
             <th>Hobbies</th>
             <th>Interests</th>
@@ -42,21 +45,24 @@ h2 {
             <td>Sports</td>
         </tr>
     </table>
-
+</div>
+<div class="pro">   
     <h2>Portfolio</h2>
      <p>My stuff<a href="portfolio.html">&nbsp;&nbsp;&nbsp;Portfolio</a></p>
 
-
+</div>
+<div class="Me">
     <h2>Photo</h2>
-        <p>Click the phone</p>
+        <p id="Rule">Click the phone!</p>
 
-        <img src="images/mypic.jpg" alt="Image Description" width="200" height="200" usemap="#Iphone">
+        <img src="images/mypic.jpg" alt="Image Description" width="200" height="200" usemap="#Iphone" class="photo">
         <map name="Iphone">
             <area shape="rect" coords="85,100,115,145" alt="phone" href="https://www.apple.com/ca/iphone/">
         </map>
-
+</div>
+<div class="pro">    
     <h2>Resume</h2>
-        <p>Ilyas's resume <a href="images/Resume.docx">here</a>.</p>
+        <p class="color font">Ilyas's resume <a href="images/Resume.docx">here</a>.</p>
 
     <h2>Testimonials</h2>
         <blockquote>
@@ -64,7 +70,7 @@ h2 {
         </blockquote>
 
     <h2>Contact Info</h2>
-        <address>
+        <address >
             <p>Email: <a href="mailto:ouenzajack@gmail.com">ilyaswebsite@gmail.com</a></p>
             <p>Phone: (123) 456 7890</p>
         </address>
@@ -73,10 +79,10 @@ h2 {
         <ul>
             <li><a href="Source.html">here</a></li>
         </ul>
+    </div>
 <hr>
         <footer>
-            <p style="text-align: center;">
-                Ilyas Ouenza<P>
+            <p>Ilyas Ouenza<P>
         </footer>
     
     <a href="#top">Top</a>
